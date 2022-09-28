@@ -1,0 +1,92 @@
+
+:root {
+    /* Colores */
+    --color-principal: #B3001B;
+    --color-fondo: #262626;
+    --color-texto: #FFFFFF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;  /* Hace que el rem sea 10 pixeles */    
+    min-width: 30rem;  
+}
+
+
+body {
+    position: relative;
+    font-family: 'Poppins';
+    background-color: var(--color-fondo);
+}
+
+body.light {
+    background-color: var(--color-texto);
+ 
+}
+
+/* Clases genericas */
+
+.container{
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.header {
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    /* background-color: red; */
+}
+
+.header__icon {
+    margin: 2.4rem;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.letra {
+    font-size: 10rem;
+    color: var(--color-principal);
+    font-weight: 700;    
+    text-transform: uppercase;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-principal);
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1.6rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-texto);
+    gap: 1rem;
+
+}
+
+
+
+
+
+
+
